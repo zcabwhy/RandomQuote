@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Random Quote Generator</title>
+    <link href='../css/bootstrap.min.css' rel='stylesheet' />
+    <link href="Random.css" rel="stylesheet">
+    <script src="Random.js"></script>
+
+</head>
+
+
+
+<body>
+<div class="container-fluid">
+
+    <h1>Random Quote Generator</h1>
+
+    <p>The following box displays a random quote. Press the button to display a new quote.</p>
+    <div style="text-align: center">
+    <p class="quote" id="quote">Try not to become a man of success, but rather try to become a man of value.- Albert Einstein</p>
+        <!--Twitter-->
+        <div style="margin-right: 30px; display: inline-block;"><a id="tweet"><button type="submit" onclick="openTweet()"><img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/twitter-128.png">Tweet</button></a></div>
+        <!--Change text button-->
+        <div style="margin-left: 30px; display:inline-block;"><input type='button' onclick="changeText()" id = "buttons"  value='New Quote'/></div>
+
+    </div>
+</div>
+
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script    src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files   as needed -->
+<script src="../js/bootstrap.min.js"></script>
+</body>
+
+</html>
